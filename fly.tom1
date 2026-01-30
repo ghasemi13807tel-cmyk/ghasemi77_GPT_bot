@@ -1,0 +1,7 @@
+app = "ghasemi77-gpt-bot"
+
+kill_signal = "SIGINT"
+kill_timeout = 5
+
+[processes]
+  app = "python main.py"
